@@ -368,9 +368,12 @@ iframe {
  ***************************** */
 header {
   background-color: #222538;
-  padding: 18px 0;
+  padding: 7px 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 .logo-column a.logo {
   height: 55px;
   padding: 0px 0;
@@ -380,7 +383,7 @@ header {
 }
 
 .nav-column {
-  padding: 5px 0;
+  padding: 14px 0;
   font-size: 16px;
 }
 .nav-column a,
@@ -1016,6 +1019,9 @@ form.search-form button {
 }
 
 .faq-sidebar-wrap {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
   border: 1px solid #cad4de;
   margin-bottom: 30px;
   padding: 35px;
@@ -1185,7 +1191,7 @@ footer {
   overflow: hidden;
 }
 .tabs-area .tabs-nav li {
-  width: 25%;
+  width: 33.333%;
   padding: 0 12.5px;
   display: inline-block;
   float: left;
