@@ -27,7 +27,7 @@ function process(text_json){
 	var actv_int = text_json[0]
 	var actv_list = text_json[actv_int]
 	var day_index = getRandomInt(actv_list.length);
-	day_index = 0;
+	day_index = 103;
 	console.log("Active int: " + actv_int + " Random day is: " + day_index)
 	msg_list = actv_list[day_index]
 	console.log(msg_list)
